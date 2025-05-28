@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/uploadFragment">
+
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.example.hacksc.fragments.FragmentUpload"
+        android:label="Upload Fragment">
+        <action
+            android:id="@+id/upload_to_speech_input"
+            app:destination="@id/speechInputFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/speechInputFragment"
+        android:name="com.example.hacksc.fragments.FragmentSpeechInput"
+        android:label="Speech Input Fragment">
+    </fragment>
+
+
+
+</navigation>

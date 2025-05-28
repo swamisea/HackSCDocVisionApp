@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HackSC</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_button">Upload</string>
+    <string name="input_hint">Enter your query</string>
+    <string name="ask_query">Ask Query</string>
+</resources>
